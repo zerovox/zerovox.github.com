@@ -3,7 +3,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>zerovox</title>
+	<title>Simple Javascript testing in the browser with Mocha - zerovox</title>
 	<meta name="author" content="Tim Slatcher">
 
 	
@@ -87,13 +87,9 @@
 </script>
 
 	
-	<div id="content" class="inner">
-
-
-    <article class="post">
-	<h1 class="title"><a href="/blog/2013/02/16/simple-backbone-testing-in-the-browser-with-mocha-and-chai/">Simple Javascript Testing in the Browser With Mocha</a></h1>
-	<div class="entry-content">
-		<p><a href="http://visionmedia.github.com/mocha/">Mocha</a> is a javascript test runner for Node and the browser. There&#8217;s plenty of documentation on how to set up Mocha with Node, I&#8217;m going to outline how easy it is to use Mocha in the browser too.
+	<div id="content" class="inner"><article class="post">
+	<h1 class="title">Simple Javascript Testing in the Browser With Mocha</h1>
+	<div class="entry-content"><p><a href="http://visionmedia.github.com/mocha/">Mocha</a> is a javascript test runner for Node and the browser. There&#8217;s plenty of documentation on how to set up Mocha with Node, I&#8217;m going to outline how easy it is to use Mocha in the browser too.
 First we need to load the config file and then I&#8217;m using <a href="http://requirejs.org/">RequireJS</a> to load the application <code>main.js</code>. I&#8217;m using the Backbone framework here, but this will work with any application.</p>
 
 <figure class='code'><figcaption><span>index.html</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
@@ -279,10 +275,7 @@ First we need to load the config file and then I&#8217;m using <a href="http://r
 
 
 <p>We can then simply navigate to our test.html page to view the results of each test.</p>
-
-		
-		
-	</div>
+</div>
 
 
 <div class="meta">
@@ -305,11 +298,26 @@ First we need to load the config file and then I&#8217;m using <a href="http://r
 	
 </div></article>
 
-<nav id="pagenavi">
-    
-    
-    <div class="center"><a href="/blog/archives">Blog Archives</a></div>
-</nav></div>
+	<div class="share">
+	<div class="addthis_toolbox addthis_default_style ">
+	
+	
+	<a class="addthis_button_tweet"></a>
+	
+	
+	<a class="addthis_counter addthis_pill_style"></a>
+	</div>
+  <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid="></script>
+</div>
+
+
+
+<section id="comment">
+    <h1 class="title">Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+</section>
+</div>
 	<footer id="footer" class="inner">Copyright &copy; 2013
 
     Tim Slatcher
@@ -328,7 +336,10 @@ First we need to load the config file and then I&#8217;m using <a href="http://r
       var disqus_shortname = 'zerovox';
       
         
-        var disqus_script = 'count.js';
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://zerovox.github.com/blog/2013/02/16/simple-backbone-testing-in-the-browser-with-mocha-and-chai/';
+        var disqus_url = 'http://zerovox.github.com/blog/2013/02/16/simple-backbone-testing-in-the-browser-with-mocha-and-chai/';
+        var disqus_script = 'embed.js';
       
     (function () {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
